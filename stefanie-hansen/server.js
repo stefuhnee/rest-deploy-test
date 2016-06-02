@@ -3,8 +3,8 @@
 const app = require('express')();
 const bodyParser = require('body-parser');
 const jsonParser = bodyParser.json();
-const plantRouter = require('./routes/plant-routes');
-const supplementRouter = require('./routes/supplement-routes');
+const plantRouter = require('./route/plant-routes');
+const supplementRouter = require('./route/supplement-routes');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
 

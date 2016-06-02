@@ -3,7 +3,7 @@
 const chai = require('chai');
 const chaiHTTP = require('chai-http');
 chai.use(chaiHTTP);
-const Supplement = require('../schema/supplement');
+const Supplement = require('../model/supplement');
 const mongoose = require('mongoose');
 
 const expect = chai.expect;

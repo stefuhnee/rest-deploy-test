@@ -15,7 +15,7 @@
     "mongoose": "^4.4.19"
   },
   "devDependencies": {
-    "body-parser": "^1.15.1",
+    "body-parser": "1.15.1",
     "chai": "^3.5.0",
     "chai-http": "^2.0.1",
     "eslint": "^2.10.2",

@@ -12,10 +12,11 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.4",
-    "mongoose": "^4.4.19"
+    "mongoose": "^4.4.19",
+    "body-parser": "1.15.1",
+    "morgan": "^1.7.0"
   },
   "devDependencies": {
-    "body-parser": "1.15.1",
     "chai": "^3.5.0",
     "chai-http": "^2.0.1",
     "eslint": "^2.10.2",
@@ -25,8 +26,7 @@
     "gulp": "^3.9.1",
     "gulp-eslint": "^2.0.0",
     "gulp-mocha": "^2.2.0",
-    "mocha": "^2.5.2",
-    "morgan": "^1.7.0"
+    "mocha": "^2.5.2"
   },
   "directories": {
     "test": "test"

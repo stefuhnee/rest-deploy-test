@@ -8,7 +8,7 @@ const supplementRouter = require('./route/supplement-routes');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
 
-const dbPort = process.env.MONGOLAB_URI || 'mongodb://localhost/dev_db';
+const dbPort = process.env.MONGODB_URI || 'mongodb://localhost/dev_db';
 mongoose.connect(dbPort);
 
 app.use(morgan('dev'));
